@@ -1,0 +1,21 @@
+
+{ "photographers": [{
+    "name": "Monica",
+    "format": "Digital",
+    "pic": "http://www.someplave.com",
+    "bio": "A live  album by the English progressive rock band originally released in 1995, on the label EMI in the United Kingdom.",
+    "website": "http://www.someplave.com"
+    }, {
+    "name": "Jeff",
+    "pic": "http://www.someplave.com",
+    "format": "Film",
+    "bio": "Her highest-selling and most acclaimed album, released in 1996.",
+    "website": "http://www.someplave.com"
+      }, {
+    "name": "Wendy",
+    "pic": "http://www.someplave.com",
+    "format": "Mixed",
+    "bio": "Second studio album by the English-American band, released in 1967.",
+    "website": "http://www.someplave.com"
+  }]
+}
