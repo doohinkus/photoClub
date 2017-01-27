@@ -9,6 +9,7 @@ import { routing } from './app.routing';
 import { AppComponent } from './app.component';
 import { PhotographersComponent } from './photographers/photographers.component';
 import { AboutComponent } from './about/about.component';
+import { FormatPipe } from './format.pipe';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -21,7 +22,8 @@ export const firebaseConfig = {
   declarations: [
     AppComponent,
     PhotographersComponent,
-    AboutComponent
+    AboutComponent,
+    FormatPipe
   ],
   imports: [
     BrowserModule,

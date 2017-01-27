@@ -1,7 +1,5 @@
-<div *ngFor="let photographer of photographers | async" class="panel panel-default">
-  <div class="panel-body">
-    <h3 (click)="goToDetailPage(photographer)"><em>{{photographer.name}}</em> by {{photographer.format}}</h3>
-
+<div *ngFor="let photographer of photographers | async">
+  <div *ngIf="photographer | format:'Film'" class="panel panel-default">
+    <h3 (click)="goToDetailPage(photographer)"><em>{{photographer.name}}</em> by {{photographer.bio}}</h3>
   </div>
-
 </div>

@@ -4,6 +4,7 @@ import { Router } from '@angular/router';
 import { PhotographerService } from '../photographer.service';
 import { AngularFire, FirebaseListObservable } from 'angularfire2';
 
+
 @Component({
   selector: 'app-photographers',
   templateUrl: './photographers.component.html',
