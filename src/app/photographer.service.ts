@@ -29,5 +29,9 @@ export class PhotographerService {
       site: localUpdatedPhotographer.site
       });
   }
+  deletePhotographer(localphotographerToDelete){
+    var photographerEntryInFirebase = this.getPhotographerById(localphotographerToDelete.$key);
+    photographerEntryInFirebase.remove();
+  }
 
 }

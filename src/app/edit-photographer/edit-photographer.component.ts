@@ -17,5 +17,10 @@ export class EditPhotographerComponent implements OnInit {
   beginUpdatingPhotographer(photographerToUpdate){
    this.photographerService.updatePhotographer(photographerToUpdate);
   }
+  beginDeletingPhotographer(photographerToDelete){
+    if(confirm("Are you sure you want to delete this photographer from the computer database?")){
+      this.photographerService.deletePhotographer(photographerToDelete);
+    }
+  }
 
 }
