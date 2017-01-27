@@ -1,5 +1,13 @@
+<div class="panel">
+  <h2>View Photographers by Format</h2>
+  <select class="form-control input-lg" (change)="onChange($event.target.value)">
+       <option value="Film">Film</option>
+       <option value="Digital">Digital</option>
+       <option value="Mixed" selected="selected">Mixed</option>
+  </select>
+</div>
 <div *ngFor="let photographer of photographers | async">
-  <div *ngIf="photographer | format:'Film'" class="panel panel-default">
+  <div *ngIf="photographer | format:filterByFormat" class="panel panel-default">
     <h3 (click)="goToDetailPage(photographer)"><em>{{photographer.name}}</em> by {{photographer.bio}}</h3>
   </div>
 </div>
