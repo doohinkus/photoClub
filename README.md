@@ -16,9 +16,9 @@ _This page demonstrates understanding of modern Angular2 basics. It creates a ph
 * _From terminal navigate to cloned repository directory._
 * _Type "npm install"_
 * _Type "bower install"_
-*_ Create a file called "api-key.ts" in the  src/app directory. Paste your API Credentials for your firebase account into it._
-*_ Log into your Firebase Account. Create a new database called "Photographers" or whatever you care to call it._
-*_ Import the "seed.json" file in the src directory into your database._
+*_Create a file called "api-key.ts" in the  src/app directory. Paste your API Credentials for your firebase account into it._
+*_Log into your Firebase Account. Create a new database called "Photographers" or whatever you care to call it._
+*_Import the "seed.json" file in the src directory into your database._
 * _Type "ng serve"_
 * _The project should automatically launch your default browser to http://locahost:4200 ._
 
