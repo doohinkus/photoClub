@@ -22,6 +22,7 @@ export class AdminComponent implements OnInit {
       var newPhotographer: Photographer = new Photographer(name, pic, format, bio, site);
       this.photographerService.addPhotographer(newPhotographer);
       alert ('Photographer added to the database.');
+      
     } else{
       alert ('The computer needs all of inputs. Enter them into the computer screen or zombies will happen.');
     }

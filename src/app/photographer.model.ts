@@ -4,5 +4,5 @@ export class Photographer {
     public pic: string,
     public format: string,
     public bio : string,
-    public site: string) { }
+    public website: string) { }
 }

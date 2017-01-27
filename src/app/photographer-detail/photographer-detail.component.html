@@ -3,5 +3,5 @@
    <p><img src="{{(photographerToDisplay | async)?.pic}}" alt="" /></p>
    <p>{{(photographerToDisplay | async)?.bio}}</p>
    <p>Preferred Media for Photography: {{(photographerToDisplay | async)?.format}}</p>
-   <p>{{(photographerToDisplay | async)?.website}}</p>
+   <p><a href="{{(photographerToDisplay | async)?.website}}" target="_blank">{{(photographerToDisplay | async)?.website}}</a></p>
 </div>
