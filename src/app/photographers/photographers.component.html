@@ -16,6 +16,10 @@
       <p>
         <img src="{{photographer.pic}}" class="grow" alt="" />
       </p>
+      <div *ngIf="currentRoute === '/admin'">
+          <hr>
+          <app-edit-photographer [selectedPhotographer]="photographer"></app-edit-photographer>
+    </div>
     </div>
   </div>
 </div>

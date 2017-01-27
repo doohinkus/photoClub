@@ -11,6 +11,8 @@ import { PhotographersComponent } from './photographers/photographers.component'
 import { AboutComponent } from './about/about.component';
 import { FormatPipe } from './format.pipe';
 import { PhotographerDetailComponent } from './photographer-detail/photographer-detail.component';
+import { AdminComponent } from './admin/admin.component';
+import { EditPhotographerComponent } from './edit-photographer/edit-photographer.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -25,7 +27,9 @@ export const firebaseConfig = {
     PhotographersComponent,
     AboutComponent,
     FormatPipe,
-    PhotographerDetailComponent
+    PhotographerDetailComponent,
+    AdminComponent,
+    EditPhotographerComponent
   ],
   imports: [
     BrowserModule,

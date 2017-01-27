@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { ActivatedRoute, Params } from '@angular/router';
 import { Location } from '@angular/common';
 import { FirebaseObjectObservable } from 'angularfire2';
@@ -14,8 +14,10 @@ import { Photographer } from '../photographer.model';
   providers: [PhotographerService]
 })
 export class PhotographerDetailComponent implements OnInit {
+
   photographerId: string;
   photographerToDisplay;
+
   constructor(
   private route: ActivatedRoute,
   private location: Location,

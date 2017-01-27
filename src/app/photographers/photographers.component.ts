@@ -16,6 +16,7 @@ export class PhotographersComponent implements OnInit {
   photographers: FirebaseListObservable<any[]>;
   currentRoute: string = this.router.url;
   filterByFormat: string = "All";
+  
 
   constructor(private router: Router, private photographerService: PhotographerService){}
 

@@ -1,0 +1,28 @@
+<h4>Edit Photographer</h4>
+<div>
+  <label>Photographer Name:</label>
+  <input [(ngModel)]="selectedPhotographer.name" class="form-control">
+</div>
+
+<div>
+  <label>Photographer Pic:</label>
+  <input [(ngModel)]="selectedPhotographer.pic" class="form-control">
+</div>
+
+<div>
+  <label>Photographer Format:</label>
+  <input [(ngModel)]="selectedPhotographer.format" class="form-control">
+</div>
+
+<div>
+  <label>Photographer Bio:</label>
+  <input [(ngModel)]="selectedPhotographer.bio" class="form-control">
+</div>
+
+<div>
+  <label>Photographer Website:</label>
+  <input [(ngModel)]="selectedPhotographer.site" class="form-control">
+</div>
+
+<button (click)="beginUpdatingPhotographer(selectedPhotographer)">Update</button>
+<button (click)="beginDeletingPhotographer(selectedPhotographer)">Delete</button>
