@@ -15,7 +15,9 @@ export class EditPhotographerComponent implements OnInit {
   ngOnInit() {
   }
   beginUpdatingPhotographer(photographerToUpdate){
+
    this.photographerService.updatePhotographer(photographerToUpdate);
+   alert('Photographer in computer database.');
   }
   beginDeletingPhotographer(photographerToDelete){
     if(confirm("Are you sure you want to delete this photographer from the computer database?")){

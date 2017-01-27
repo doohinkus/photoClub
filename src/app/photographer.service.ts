@@ -26,7 +26,7 @@ export class PhotographerService {
       pic: localUpdatedPhotographer.pic,
       format: localUpdatedPhotographer.format,
       bio: localUpdatedPhotographer.bio,
-      site: localUpdatedPhotographer.site
+      site: localUpdatedPhotographer.website
       });
   }
   deletePhotographer(localphotographerToDelete){
