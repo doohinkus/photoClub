@@ -1,31 +1,44 @@
-# PhotoClub
+# _Epicodus Angular2 Photo Cluc Project_
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.25.5.
+#### _A web page built with Angular2 & Bootstrap_
 
-## Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+#### By _**Rafael Perez**_
 
-## Code scaffolding
+## Description
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
+_This page demonstrates understanding of modern Angular2 basics. It creates a photo club application that allows users to view profiles of club members. The admin can add, edit, and delete users from the admin page. _
 
-## Build
+## Setup/Installation Requirements
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+* _Clone repository._
+*_THIS PROJECT REQUIRES ANGULAR CLI AND A FIREBASE ACCOUNT._
+* _Open terminal (This repository requires Node.js to be installed on your machine)_
+* _From terminal navigate to cloned repository directory._
+* _Type "npm install"_
+* _Type "bower install"_
+*_ Create a file called "api-key.ts" in the  src/app directory. Paste your API Credentials for your firebase account into it.
+*_ Log into your Firebase Account. Create a new database called "Photographers" or whatever you care to call it._
+*_ Import the "seed.json" file in the src directory into your database. _
+* _Type "ng serve"_
+* _The project should automatically launch your default browser to http://locahost:4200 ._
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+_There is absolutely nothing special about this application. It closely follows the code covered in the lessons for this week_
 
-## Running end-to-end tests
+## Known Bugs
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+_There are no known bugs at this time._
 
-## Deploying to GitHub Pages
+## Support and contact details
 
-Run `ng github-pages:deploy` to deploy to GitHub Pages.
+_If you have any issue with this code, please contact me._
 
-## Further help
+## Technologies Used
 
-To get more help on the `angular-cli` use `ng help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+_HTML, CSS, Angular2_
+
+### License
+
+*MIT License*
+
+Copyright (c) 2017 **_Rafael Perez_**
