@@ -13,10 +13,25 @@
       <h3 (click)="goToDetailPage(photographer)" class="cursor">
         {{photographer.name}}
       </h3>
+
       <p>
         <img src="{{photographer.pic}}" class="grow" alt="" />
       </p>
       <div *ngIf="currentRoute === '/admin'">
+
+          <h2>
+            Bio:
+          </h2>
+          <h3>{{photographer.bio}}</h3>
+          <h2>
+            Format (Preferred Medium): {{photographer.format}}
+          </h2>
+
+          <h2>
+            Site:
+          </h2>
+          <h3>{{photographer.site}}</h3>
+
           <hr>
           <app-edit-photographer [selectedPhotographer]="photographer"></app-edit-photographer>
     </div>

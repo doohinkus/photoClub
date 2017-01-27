@@ -10,13 +10,17 @@
 </div>
 
 <div>
-  <label>Photographer Format:</label>
-  <input [(ngModel)]="selectedPhotographer.format" class="form-control">
+  <label>Photographer Format (Preferred Medium):</label>
+  <select class="form-control input-lg" [(ngModel)]="selectedPhotographer.format">
+       <option value="Film">Film</option>
+       <option value="Digital">Digital</option>
+       <option value="Mixed">Mixed</option>
+  </select>
 </div>
 
 <div>
   <label>Photographer Bio:</label>
-  <input [(ngModel)]="selectedPhotographer.bio" class="form-control">
+  <textarea [(ngModel)]="selectedPhotographer.bio" class="form-control"></textarea>
 </div>
 
 <div>
@@ -24,5 +28,5 @@
   <input [(ngModel)]="selectedPhotographer.site" class="form-control">
 </div>
 
-<button (click)="beginUpdatingPhotographer(selectedPhotographer)">Update</button>
-<button (click)="beginDeletingPhotographer(selectedPhotographer)">Delete</button>
+<button (click)="beginUpdatingPhotographer(selectedPhotographer)" class="btn btn-warning btn-lg margin">Update</button>
+<button (click)="beginDeletingPhotographer(selectedPhotographer)" class="btn btn-danger btn-lg margin">Delete</button>
