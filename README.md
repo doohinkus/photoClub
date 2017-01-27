@@ -1,4 +1,4 @@
-# _Epicodus Angular2 Photo Cluc Project_
+# _Epicodus Angular2 Photo Club Project_
 
 #### _A web page built with Angular2 & Bootstrap_
 
