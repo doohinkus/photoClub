@@ -29,7 +29,7 @@
         <label>Photographer Website:</label>
         <input class="form-control" #newWebsite>
       </div>
-      <button (click)="submitForm(newName.value, newPic.value, newFormat.value, newBio.value, newWebsite.value)" class="btn btn-success btn-lg btn-block margin">Add</button>
+      <button (click)="submitForm(newName.value, newPic.value, newFormat.value, newBio.value, newWebsite.value); newName.value=''; newBio.value=''; newPic.value=''; newWebsite.value=''" class="btn btn-success btn-lg btn-block margin">Add</button>
     </div>
   </div>
 </div>
