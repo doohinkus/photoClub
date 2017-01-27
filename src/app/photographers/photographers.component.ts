@@ -15,7 +15,7 @@ import { AngularFire, FirebaseListObservable } from 'angularfire2';
 export class PhotographersComponent implements OnInit {
   photographers: FirebaseListObservable<any[]>;
   currentRoute: string = this.router.url;
-  filterByFormat: string = "Film";
+  filterByFormat: string = "All";
 
   constructor(private router: Router, private photographerService: PhotographerService){}
 
@@ -25,5 +25,8 @@ export class PhotographersComponent implements OnInit {
   onChange(optionFromMenu) {
     this.filterByFormat = optionFromMenu;
   }
+  goToDetailPage(clickedPhotographer) {
+      this.router.navigate(['photographer', clickedPhotographer.$key]);
+  };
 
 }

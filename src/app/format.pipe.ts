@@ -10,8 +10,11 @@ export class FormatPipe implements PipeTransform {
     // console.log(photographers); SHOWS OBJECT
     // photographers.forEach(...) DOESN'T WORK NOT WAY TO ITERATE
     //CONSOLE GIVES ERRORS, OBJECT IS NULL??????
-
+  if (term !== "All"){
     return photographers.format===term;
+  }
+    return photographers;
+
 
 
  }

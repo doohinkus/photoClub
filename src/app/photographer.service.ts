@@ -12,6 +12,10 @@ export class PhotographerService {
 getPhotographers(){
     return this.photographers;
 }
+getPhotographerById (photographerID: string){
+   return this.angularFire.database.object('/photographers/' + photographerID);
+
+}
 
 
 }
