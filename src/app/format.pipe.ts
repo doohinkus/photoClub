@@ -5,7 +5,12 @@ import { Pipe, PipeTransform } from '@angular/core';
   name: 'format'
 })
 export class FormatPipe implements PipeTransform {
+  
+  //this should import both the model and the Service
+  //photographers:Photographer
 //ASK ABOUT THIS
+  
+  //transform(input: Photographer[], filter)
   transform(photographers: any, term: any): any {
     // console.log(photographers); SHOWS OBJECT
     // photographers.forEach(...) DOESN'T WORK NOT WAY TO ITERATE
