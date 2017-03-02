@@ -7,8 +7,8 @@
        <option value="Mixed">Mixed</option>
   </select>
 </div>
-<div *ngFor="let photographer of photographers | async">
-  <div *ngIf="photographer | format:filterByFormat" class="panel panel-info">
+<div *ngFor="let photographer of photographers | async | format:filterByFormat">
+  <div class="panel panel-info">
     <div class="panel-body">
       <h3 (click)="goToDetailPage(photographer)" class="cursor">
         {{photographer.name}}
