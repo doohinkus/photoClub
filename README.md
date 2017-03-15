@@ -20,7 +20,7 @@ _This page demonstrates understanding of modern Angular2 basics. It creates a ph
 * _Log into your Firebase Account. Create a new database called "Photographers" or whatever you care to call it._
 * _Import the "seed.json" file in the src directory into your database._
 * _Type "ng serve"_
-* _The project should automatically launch your default browser to http://locahost:4200 ._
+* _The project should automatically launch your default browser to http://locahost:4200  or view it on firebase: https://photogroup-8655b.firebaseapp.com/ ._
 
 
 _There is absolutely nothing special about this application. It closely follows the code covered in the lessons for this week_
